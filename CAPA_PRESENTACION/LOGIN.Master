@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LOGIN.master.cs" Inherits="CAPA_PRESENTACION.LOGIN" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+  <meta charset="UTF-8">
+<title>CodePen - Login </title>
+
+  <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div class="wrap">
+		<div class="avatar">
+      <img src="http://cdn.ialireza.me/avatar.png">
+		</div>
+      <asp:TextBox ID="txtnombre" runat="server" placeholder="username" ></asp:TextBox>
+		<div class="bar">
+			<i></i>
+		</div>
+      <asp:TextBox ID="txtcontraseña" runat="server" placeholder="password" ></asp:TextBox>
+		<a href="" class="forgot_link">forgot ?</a>
+		<button>Sign in</button>
+	</div>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
